@@ -4,3 +4,4 @@ ios项目的沙盒
 2. 如何与itune交互(用户从itune拷贝数据到应用)
 3. 如何使用wifi传递数据
 4. 如何使用icloud进行数据同步
+5. good to go
