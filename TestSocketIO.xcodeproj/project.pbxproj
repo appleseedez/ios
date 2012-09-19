@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D7957B1609AF6C00293E95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D7957A1609AF6C00293E95 /* UIKit.framework */; };
+		18D7957D1609AF6C00293E95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D7957C1609AF6C00293E95 /* Foundation.framework */; };
+		18D7957F1609AF6C00293E95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D7957E1609AF6C00293E95 /* CoreGraphics.framework */; };
+		18D795851609AF6C00293E95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D795831609AF6C00293E95 /* InfoPlist.strings */; };
+		18D795871609AF6C00293E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D795861609AF6C00293E95 /* main.m */; };
+		18D7958B1609AF6C00293E95 /* TestSocketIOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7958A1609AF6C00293E95 /* TestSocketIOAppDelegate.m */; };
+		18D7958E1609AF6C00293E95 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D7958C1609AF6C00293E95 /* MainStoryboard_iPhone.storyboard */; };
+		18D795911609AF6C00293E95 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D7958F1609AF6C00293E95 /* MainStoryboard_iPad.storyboard */; };
+		18D795941609AF6C00293E95 /* TestSocketIOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D795931609AF6C00293E95 /* TestSocketIOViewController.m */; };
+		18D7959E1609AFC200293E95 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D7959C1609AF9B00293E95 /* CFNetwork.framework */; };
+		18D7959F1609AFCB00293E95 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D7959A1609AF8700293E95 /* Security.framework */; };
+		18D795A11609AFDF00293E95 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D795A01609AFDF00293E95 /* libicucore.dylib */; };
+		18D795AA1609B03E00293E95 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D795A31609B03E00293E95 /* base64.c */; };
+		18D795AB1609B03E00293E95 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D795A61609B03E00293E95 /* NSData+SRB64Additions.m */; };
+		18D795AC1609B03E00293E95 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D795A91609B03E00293E95 /* SRWebSocket.m */; };
+		18D795B11609B1E000293E95 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D795AE1609B1E000293E95 /* SocketIO.m */; };
+		18D795B21609B1E000293E95 /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D795B01609B1E000293E95 /* SocketIOJSONSerialization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D795761609AF6C00293E95 /* TestSocketIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSocketIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D7957A1609AF6C00293E95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D7957C1609AF6C00293E95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18D7957E1609AF6C00293E95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18D795821609AF6C00293E95 /* TestSocketIO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSocketIO-Info.plist"; sourceTree = "<group>"; };
+		18D795841609AF6C00293E95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18D795861609AF6C00293E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D795881609AF6C00293E95 /* TestSocketIO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSocketIO-Prefix.pch"; sourceTree = "<group>"; };
+		18D795891609AF6C00293E95 /* TestSocketIOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSocketIOAppDelegate.h; sourceTree = "<group>"; };
+		18D7958A1609AF6C00293E95 /* TestSocketIOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSocketIOAppDelegate.m; sourceTree = "<group>"; };
+		18D7958D1609AF6C00293E95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		18D795901609AF6C00293E95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		18D795921609AF6C00293E95 /* TestSocketIOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSocketIOViewController.h; sourceTree = "<group>"; };
+		18D795931609AF6C00293E95 /* TestSocketIOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSocketIOViewController.m; sourceTree = "<group>"; };
+		18D7959A1609AF8700293E95 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18D7959C1609AF9B00293E95 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18D795A01609AFDF00293E95 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		18D795A31609B03E00293E95 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		18D795A41609B03E00293E95 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		18D795A51609B03E00293E95 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		18D795A61609B03E00293E95 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		18D795A71609B03E00293E95 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		18D795A81609B03E00293E95 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		18D795A91609B03E00293E95 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		18D795AD1609B1E000293E95 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIO.h; path = ../SocketIO.h; sourceTree = "<group>"; };
+		18D795AE1609B1E000293E95 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIO.m; path = ../SocketIO.m; sourceTree = "<group>"; };
+		18D795AF1609B1E000293E95 /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIOJSONSerialization.h; path = ../SocketIOJSONSerialization.h; sourceTree = "<group>"; };
+		18D795B01609B1E000293E95 /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOJSONSerialization.m; path = ../SocketIOJSONSerialization.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D795731609AF6C00293E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D795A11609AFDF00293E95 /* libicucore.dylib in Frameworks */,
+				18D7959F1609AFCB00293E95 /* Security.framework in Frameworks */,
+				18D7959E1609AFC200293E95 /* CFNetwork.framework in Frameworks */,
+				18D7957B1609AF6C00293E95 /* UIKit.framework in Frameworks */,
+				18D7957D1609AF6C00293E95 /* Foundation.framework in Frameworks */,
+				18D7957F1609AF6C00293E95 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D7956B1609AF6C00293E95 = {
+			isa = PBXGroup;
+			children = (
+				18D795A21609B03E00293E95 /* SocketRocket */,
+				18D795A01609AFDF00293E95 /* libicucore.dylib */,
+				18D795801609AF6C00293E95 /* TestSocketIO */,
+				18D795791609AF6C00293E95 /* Frameworks */,
+				18D795771609AF6C00293E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D795771609AF6C00293E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D795761609AF6C00293E95 /* TestSocketIO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D795791609AF6C00293E95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D7959C1609AF9B00293E95 /* CFNetwork.framework */,
+				18D7959A1609AF8700293E95 /* Security.framework */,
+				18D7957A1609AF6C00293E95 /* UIKit.framework */,
+				18D7957C1609AF6C00293E95 /* Foundation.framework */,
+				18D7957E1609AF6C00293E95 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D795801609AF6C00293E95 /* TestSocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				18D795AD1609B1E000293E95 /* SocketIO.h */,
+				18D795AE1609B1E000293E95 /* SocketIO.m */,
+				18D795AF1609B1E000293E95 /* SocketIOJSONSerialization.h */,
+				18D795B01609B1E000293E95 /* SocketIOJSONSerialization.m */,
+				18D795891609AF6C00293E95 /* TestSocketIOAppDelegate.h */,
+				18D7958A1609AF6C00293E95 /* TestSocketIOAppDelegate.m */,
+				18D7958C1609AF6C00293E95 /* MainStoryboard_iPhone.storyboard */,
+				18D7958F1609AF6C00293E95 /* MainStoryboard_iPad.storyboard */,
+				18D795921609AF6C00293E95 /* TestSocketIOViewController.h */,
+				18D795931609AF6C00293E95 /* TestSocketIOViewController.m */,
+				18D795811609AF6C00293E95 /* Supporting Files */,
+			);
+			path = TestSocketIO;
+			sourceTree = "<group>";
+		};
+		18D795811609AF6C00293E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D795821609AF6C00293E95 /* TestSocketIO-Info.plist */,
+				18D795831609AF6C00293E95 /* InfoPlist.strings */,
+				18D795861609AF6C00293E95 /* main.m */,
+				18D795881609AF6C00293E95 /* TestSocketIO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D795A21609B03E00293E95 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				18D795A31609B03E00293E95 /* base64.c */,
+				18D795A41609B03E00293E95 /* base64.h */,
+				18D795A51609B03E00293E95 /* NSData+SRB64Additions.h */,
+				18D795A61609B03E00293E95 /* NSData+SRB64Additions.m */,
+				18D795A71609B03E00293E95 /* SocketRocket-Prefix.pch */,
+				18D795A81609B03E00293E95 /* SRWebSocket.h */,
+				18D795A91609B03E00293E95 /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D795751609AF6C00293E95 /* TestSocketIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D795971609AF6C00293E95 /* Build configuration list for PBXNativeTarget "TestSocketIO" */;
+			buildPhases = (
+				18D795721609AF6C00293E95 /* Sources */,
+				18D795731609AF6C00293E95 /* Frameworks */,
+				18D795741609AF6C00293E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSocketIO;
+			productName = TestSocketIO;
+			productReference = 18D795761609AF6C00293E95 /* TestSocketIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D7956D1609AF6C00293E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TestSocketIO;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 18D795701609AF6C00293E95 /* Build configuration list for PBXProject "TestSocketIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18D7956B1609AF6C00293E95;
+			productRefGroup = 18D795771609AF6C00293E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D795751609AF6C00293E95 /* TestSocketIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D795741609AF6C00293E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D795851609AF6C00293E95 /* InfoPlist.strings in Resources */,
+				18D7958E1609AF6C00293E95 /* MainStoryboard_iPhone.storyboard in Resources */,
+				18D795911609AF6C00293E95 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D795721609AF6C00293E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D795871609AF6C00293E95 /* main.m in Sources */,
+				18D7958B1609AF6C00293E95 /* TestSocketIOAppDelegate.m in Sources */,
+				18D795941609AF6C00293E95 /* TestSocketIOViewController.m in Sources */,
+				18D795AA1609B03E00293E95 /* base64.c in Sources */,
+				18D795AB1609B03E00293E95 /* NSData+SRB64Additions.m in Sources */,
+				18D795AC1609B03E00293E95 /* SRWebSocket.m in Sources */,
+				18D795B11609B1E000293E95 /* SocketIO.m in Sources */,
+				18D795B21609B1E000293E95 /* SocketIOJSONSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D795831609AF6C00293E95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D795841609AF6C00293E95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18D7958C1609AF6C00293E95 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D7958D1609AF6C00293E95 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		18D7958F1609AF6C00293E95 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D795901609AF6C00293E95 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D795951609AF6C00293E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D795961609AF6C00293E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D795981609AF6C00293E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSocketIO/TestSocketIO-Prefix.pch";
+				INFOPLIST_FILE = "TestSocketIO/TestSocketIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18D795991609AF6C00293E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSocketIO/TestSocketIO-Prefix.pch";
+				INFOPLIST_FILE = "TestSocketIO/TestSocketIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D795701609AF6C00293E95 /* Build configuration list for PBXProject "TestSocketIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D795951609AF6C00293E95 /* Debug */,
+				18D795961609AF6C00293E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D795971609AF6C00293E95 /* Build configuration list for PBXNativeTarget "TestSocketIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D795981609AF6C00293E95 /* Debug */,
+				18D795991609AF6C00293E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D7956D1609AF6C00293E95 /* Project object */;
+}

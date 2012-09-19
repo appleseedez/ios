@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<script src="socket.io/socket.io.js"></script>
+<script>
+var userId='';
+var inbox=null;
+  var socket = io.connect('http://localhost',3000);
+  socket.on('connected',function(data){
+	  console.log(data);
+	  userId = data.id;
+  })
+  socket.on('message', function (data) {
+	 var node =document.createElement('p');
+	 node.innerHTML=data.id + ' : '+data.msg;
+	 inbox.appendChild(node);
+    
+  });
+  
+  
+  window.onload=function(){
+	   inbox = document.getElementById('inbox')
+	   document.getElementById('sendBtn').addEventListener('click',function(){
+		     var msg = document.getElementById('messageBox').value || '';
+		   	 socket.emit('message',{"msg":msg,"id":userId});
+			 var node =document.createElement('p');
+			 node.innerHTML=userId + ' : '+msg;
+			 inbox.appendChild(node);
+		   
+	   })
+	
+  }
+</script>
+<textarea id="messageBox"></textarea>
+
+<input id="sendBtn" type="button" value="send" />
+<div id="inbox">
+	
+	
+</div>
+
+
+</html>
